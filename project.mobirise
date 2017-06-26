@@ -1,0 +1,492 @@
+{
+  "settings": {
+    "name": "NewSite-06-26_1515",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {}
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 14,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "html_before": "<!-- WhatsHelp.io widget -->\r\n<script type=\"text/javascript\">\r\n    (function () {\r\n        var options = {\r\n            whatsapp: \"+7 (917) 282-1899\", // WhatsApp number\r\n            telegram: \"Vmf116\", // Telegram bot username\r\n            vkontakte: \"dub_tesla\", // VKontakte page name\r\n            email: \"info2015kzn@gmail.com\", // Email\r\n            sms: \"+7-917-282-1899\", // Sms phone number\r\n            call: \"+7-917-282-1899\", // Call phone number\r\n            company_logo_url: \"//www.shareicon.net/download/2016/08/01/640408_music.svg\", // URL of company logo (png, jpg, gif)\r\n            greeting_message: \"Здравствуйте! Отправьте нам сообщение через любой из 7 мессенджеров.\", // Text of greeting message\r\n            call_to_action: \"Напишите нам через соц сети\", // Call to action\r\n            button_color: \"#129BF4\", // Color of button\r\n            position: \"right\", // Position may be 'right' or 'left'\r\n            order: \"whatsapp,telegram,vkontakte,sms,call,email\" // Order of buttons\r\n        };\r\n        var proto = document.location.protocol, host = \"whatshelp.io\", url = proto + \"//static.\" + host;\r\n        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';\r\n        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };\r\n        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);\r\n    })();\r\n</script>\r\n<!-- /WhatsHelp.io widget -->",
+    "headbody": "",
+    "botbody": "",
+    "seo-meta": "",
+    "globalfooter": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-0",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/your-logo-here-128x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://vk.com/content116",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://vk.com/content116\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">лого</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://vk.com/content116\">О КОМПАНИИ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://vk.com/content116\" aria-expanded=\"false\">УСЛУГИ</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://vk.com/content116\" aria-expanded=\"false\">УСЛУГА</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://vk.com/content116\">СУБ УСЛУГА</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://vk.com/content116\">СУБ УСЛУГА</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://vk.com/content116\">УСЛУГА</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://vk.com/content116\" aria-expanded=\"false\">КОНТАКТЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://vk.com/content116\">СКАЧАТЬ ПРАЙС</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-2.jpg",
+            "bgColor": "#fff8e0",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ffffff",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "title": "Ваш бизнес \\товар \\услуга",
+          "text": "<br>Описание достоинства приемущества офферы<br>Описание достоинства приемущества офферы<br>Описание достоинства приемущества офферы<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://vk.com/content116\" data-toolbar=\"-mbrBtnMove\">КУПИТЬ</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://vk.com/content116\" data-toolbar=\"-mbrBtnMove\">УЗНАТЬ</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-2",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/feature-bootstrap.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "ПРИЕМУЩЕСТВО",
+          "caption1": "ПОДЗАГОЛОВОК ПОДЗАГОЛОВОК ПОДЗАГОЛОВОК ПОДЗАГОЛОВОК ",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/feature-responsive.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "ПРИЕМУЩЕСТВО",
+          "caption2": "ПОДЗАГОЛОВОК ПОДЗАГОЛОВОК ПОДЗАГОЛОВОК ПОДЗАГОЛОВОК ",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/feature-google-fonts.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "ПРИЕМУЩЕСТВО",
+          "caption3": "ПОДЗАГОЛОВОК ПОДЗАГОЛОВОК ПОДЗАГОЛОВОК ПОДЗАГОЛОВОК ",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/feature-websites.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "ПРИЕМУЩЕСТВО",
+          "caption4": "ПОДЗАГОЛОВОК ПОДЗАГОЛОВОК ПОДЗАГОЛОВОК ПОДЗАГОЛОВОК ",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "_styles": {
+            "H4": {
+              "font-size": "21px"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-4",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/photo-4.jpg",
+              "link": "https://vk.com/content116",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "ЗАГОЛОВОК",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>ПОДЗАГОЛОВОК ПОДЗАГОЛОВОК ПОДЗАГОЛОВОК ПОДЗАГОЛОВОК&nbsp;</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://vk.com/content116\" data-toolbar=\"-mbrBtnMove\">ЕЩЕ</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-6",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://vk.com/content116\" data-toolbar=\"-mbrBtnMove\">КУПИТЬ\\УЗНАТЬ</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://vk.com/content116\" data-toolbar=\"-mbrBtnMove\">ПЕРЕЗВОНИТЕ МНЕ&nbsp;</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-7",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/photo-13.jpg",
+              "width": 1400
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=shyzIvZYWkw",
+              "autoplay": false,
+              "loop": false,
+              "active": true
+            }
+          },
+          "_params": {
+            "showText": true
+          },
+          "text": "<a href=\"https://vk.com/content116\">КОМЕНТАРИЙ</a>"
+        },
+        {
+          "_inherit": "slider",
+          "_afterNavbarItem": ".mbr-slider",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider2",
+          "_params": {
+            "autoplay": true,
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/photo-6.jpg",
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "ЗАГОЛОВОК",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://vk.com/content116\" data-toolbar=\"-mbrBtnMove\">КНОПКА</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://vk.com/content116\" data-toolbar=\"-mbrBtnMove\">КНОПКА</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/photo-9.jpg",
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "ЗАГОЛОВОК",
+                "showText": false,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://vk.com/content116\" data-toolbar=\"-mbrBtnMove\">КНОПКА</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://vk.com/content116\" data-toolbar=\"-mbrBtnMove\">КНОПКА</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/photo-10.jpg",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "ЗАГОЛОВОК",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://vk.com/content116\" data-toolbar=\"-mbrBtnMove\">КНОПКА</a> "
+              }
+            ],
+            "showBullets": true
+          },
+          "_anchor": "slider2-8",
+          "articleLayout": true
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-a",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#FFF8E0",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "firstType": "bg-success",
+            "showButtons": true,
+            "secondType": "bg-warning",
+            "thirdType": "bg-danger",
+            "fourthType": "bg-primary"
+          },
+          "title1": "<b>ТАРИФ 1</b>",
+          "currency1": "$",
+          "price1": "0",
+          "period1": "per month",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>32 GB</b> Storage</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>15 GB</b> Bandwidth</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://vk.com/content116\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">КУПИТЬ\\УЗНАТЬ</a>",
+          "title2": "<b>ТАРИФ 2</b>",
+          "currency2": "$",
+          "price2": "0",
+          "period2": "per month",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>80 GB</b> Storage</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>20 GB</b> Bandwidth</li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://vk.com/content116\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">КУПИТЬ\\УЗНАТЬ</a>",
+          "title3": "<b>ТАРИФ 3</b>",
+          "currency3": "$",
+          "price3": "0",
+          "period3": "per month",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>100 GB</b> Storage</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>50 GB</b> Bandwidth</li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://vk.com/content116\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">КУПИТЬ\\УЗНАТЬ</a>",
+          "title4": "<b>ТАРИФ 4</b>",
+          "currency4": "$",
+          "price4": "0",
+          "period4": "per month",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Unlimited</b> Storage</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>1TB GB</b> Bandwidth</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://vk.com/content116\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">КУПИТЬ\\УЗНАТЬ</a>",
+          "_styles": {
+            "B": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-b",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "ФОРМА ЗАХВАТА",
+          "form": {
+            "action": "info2015kzn@gmail.com",
+            "alerts": {
+              "success": "ПРИДЕТ НА ПОЧТУ"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "ИМЯ"
+              },
+              "email": {
+                "title": "Email",
+                "visible": false,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "ТЕЛЕФОН"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "ГОРОД"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ОТПРАВИТЬ</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-d",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          },
+          "text1": "<strong>АДРЕС</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br>\n<strong>КОНТАКТЫ</strong><br>+7 917 282 18 99<br><span style=\"font-size: 1rem; line-height: 1.5;\">info2015kzn@gmail.com</span><br>",
+          "text2": "<b>ССЫЛКИ</b><br><ul>ВК<br><br><br></ul>"
+        }
+      ]
+    }
+  }
+}
